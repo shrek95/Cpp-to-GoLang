@@ -23,21 +23,22 @@ void Node::CommitMicroBlockConsensusBuffer() {
 
 ## ---------------------CPP FUNCTION EXPLANATION----------------
 
-**Line 12:** Declaration of c++ func with no arguments, Particular function is declared in the class node in the node.h file.
+**Line 1:** Declaration of c++ func with no arguments, Particular function is declared in the class node in the node.h file.
 
-**Line 13:** Mutex is being created to seclude the process in order to maintain the data continuity.
+**Line 2:** Mutex is being created to seclude the process in order to maintain the data continuity.
 
-**Line 15:** For loop gets triggered by the using  auto variable for incrementation \
+**Line 4:** For loop gets triggered by the using  auto variable for incrementation \
 for range traversal on m_microBlockConsensusBuffer[] array.
 
-**Line 16:** Using anonymous function concept and passing values of i in the anonymous func ]
+**Line 5:** Using anonymous function concept and passing values of i in the anonymous func ]
 and declaring the runconsensus variable as auto in order to make the variable generic \
 with datatype and inorder to pass it as an argument in the function on line 20.
 
-**Line 17:** Process is triggered ProcessMicroBlockConsensusCore()
+**Line 6:** Internal Process is triggered ProcessMicroBlockConsensusCore()
 with three arguments accepting the messagebody, node message, and node peer values.
 
-**Line20:** Process is triggered with two arguments as message off set value ad anonymous func.
+**Line7:** Internal Process is triggered with two arguments as message off set value ad anonymous func for achieving\
+threading.
 
 
 -----------------------------------------------------------------------------------------------------

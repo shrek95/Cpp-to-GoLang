@@ -2,7 +2,7 @@ In the following documentation the explanation of the conversion process of part
 
 -----------------------------------------------------------
 
-## The C++ code snippet form MicroBlockPostProcessing.cpp (133-143)
+## The C++ code snippet form libNode/MicroBlockPostProcessing.cpp (133-143)
 
 -----------------------------------------------------------
 
